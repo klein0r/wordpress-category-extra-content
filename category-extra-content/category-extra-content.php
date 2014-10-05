@@ -5,7 +5,7 @@ Description: Adds additional content to posts in categories
 Version: 0.1.0
 Author: Matthias Kleine
 Author URI: http://mkleine.de/
-Plugin URI: http://www.yarpp.com/
+Plugin URI: http://mkleine.de/
 ----------------------------------------------------------------------------------------------------------------------*/
 
 define('CATEGORY_EXTRA_DIR', dirname(__FILE__));
