@@ -45,7 +45,7 @@ class CategoryExtraContent
         /* if it's not an auto-display post type, return */
         if (get_post_type() == 'post') {
 
-            if (!is_singular() && (is_archive() || is_home())) {
+            if (!is_single()) {
                 return null;
             }
 
